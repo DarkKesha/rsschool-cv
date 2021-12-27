@@ -4,7 +4,7 @@ ____
 ## Contacts
 - Location: Khabarovsk, Russia
 - Email: gorod.dan@mail.ru
-- GitHub: DaniilGorodilov
+- GitHub: DaniilGorodil
 - [my instagram](instagram.com/daniilgorod/)
 
 # About me
