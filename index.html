@@ -2,11 +2,125 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Daniil CV</title>
+    <link href="styles.css" 
+    rel="stylesheet" />
 </head>
 <body>
+<div class="container">   
+<div class="info">
     
+    <img src="Avatar.jpg" alt="тут моя фотка" class="avatar"/>
+    <div class="info-text">
+    <h1>Daniil Gorodilov</h1>
+    <p><strong> have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.</strong></p> 
+    <p><strong>I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.</strong></p>
+
+    <h4>Contacts</h4>
+    
+        Khabarovsk, Russia
+        |
+        gorod.dan@mail.ru
+        |
+        GitHub: DarkKesha
+        |
+        <a href="https://instagram.com/daniilgorod" target="blank">Instagram</a>
+        |
+        <a href="https://vk.com/daniilgorod"target="blank">vk.com</a>
+    </div>
+</div>
+    
+    
+
+<div class="card bg-yellow">
+    <h2>Skills and Proficiency:</h2>
+    <ul class="list">
+        <li>HTML5, CSS3</li>
+        <li>JavaScript Basics</li>
+        <li>Git, GitHub</li>
+        <li>VS Code</li>
+    </ul>
+</div> 
+
+    
+<div class="card bg-green">
+    <h2>Experience</h2>
+    <table class="table">
+        <tr>
+            <td>ANO "Regional Agricultural Fund"</td>
+            <td>Manager</td>
+            <td>2016-2018</td>
+        </tr>
+        <tr>
+            <td>Restaurant</td>
+            <td>Manager</td>
+            <td>2018-2019</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+    
+<div class="card bg-red">    
+    <h2>Education</h2>
+    <ul type="disc">
+        <li>Far Eastern Transport University: Bachelor’s Degree (Trade);</li>
+        <li>Moscow Power Engineering University: Procurement Expert</li>
+    </ul>
+</div>
+
+<div class="card bg-yellow">
+    <h2>English</h2>
+    <ul type="circle">
+        <li>A1</li>
+    </ul>
+</div>    
+
+<div class="card bg-green">
+    <h2>Пример кода</h2>
+    <p><code>
+      function checkParent (src, dest) {<Br>
+       while (src != null) {<Br>
+         if (src.tagName == dest) return src<Br>
+          src = src.parentElement<Br>
+       }<Br>
+       return null<Br>
+      }</code></p>
+</div>
+
+    <div class="contact">
+    <h2>Contact with me</h2>
+
+    <form action="/">
+    <div class="row">
+        <div class="form-group">
+        <label for="name">Your name:</label>
+        <input type="text" id="name" placeholder="Enter your name...">
+        </div>
+        
+        
+        <div class="form-group">
+        <label for="email">Your email:</label>
+        <input type="email" id="email" placeholder="Enter your email...">
+        </div>
+    </div>
+        
+        <div class="form-group">
+        <label for="text">Your message:</label>
+    
+        <textarea id="text" rows="2" cols="15"></textarea>
+        </div>
+        
+        
+        <input class="btn" type="submit" value="Contact!">
+        
+    </form>
+    </div>
+    </div>
+    <footer>
+        <img src="logo.PNG" alt="логотип" class="avatar1"/> 
+        <a href=https://github.com/DarkKesha/rsschool-cv.git target="blank">github</a> 2022
+        <a href=https://rs.school/js/ target="blank">Ссылка на курс</a>
+    </footer> 
 </body>
 </html>
